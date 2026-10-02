@@ -116,6 +116,20 @@ Rahmen und es findet keine Abschaltung statt.
 - GPIO2, GPIO8 und GPIO9 sind Strapping Pins. Sie werden hier nur als Ausgang (DIN) bzw.
   für I²C genutzt, die Taster liegen bewusst nicht auf diesen Pins.
 
+## Platine (PCB)
+
+Im Ordner [`hardware/`](hardware/) liegt ein KiCad-Projekt (Schaltplan und geroutete Platine,
+88 × 52 mm, 2 Lagen). Die Module werden auf beiden Seiten der Platine gesteckt: SuperMini,
+OLED, Taster, Poti und Ein/Aus-Schalter auf der Oberseite, SD-Modul, PCM5102, HW-104
+(PAM8403) und TP4056 auf der Unterseite. Die Pinbelegung ist dieselbe wie oben. Zusätzlich
+sind der Akku-Pfad mit Lademodul, Schalter und Schottky-Diode sowie Kondensatoren gegen
+Störgeräusche am Verstärker vorgesehen.
+
+Einige Modulmaße sind geschätzt – vor der Bestellung bitte die Hinweise in der
+[Platinen-README](hardware/README.md) beachten.
+
+![Platine Oberseite](hardware/bilder/platine_oberseite.png)
+
 ## SD Karte
 
 Die SD Karte muss FAT32 formatiert sein. Jeder Ordner im Hauptverzeichnis ist eine

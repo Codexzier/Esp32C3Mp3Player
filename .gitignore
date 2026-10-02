@@ -1,0 +1,10 @@
+# KiCad: lokale Einstellungen, Sicherungen, Caches
+*.kicad_prl
+*-backups/
+*.lck
+_autosave-*
+fp-info-cache
+*.bak
+*-drc.rpt
+*-erc.rpt
+hardware/fertigung/

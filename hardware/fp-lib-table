@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Esp32C3Mp3Player")(type "KiCad")(uri "${KIPRJMOD}/Esp32C3Mp3Player.pretty")(options "")(descr "Module fuer den ESP32-C3 MP3 Player"))
+)
